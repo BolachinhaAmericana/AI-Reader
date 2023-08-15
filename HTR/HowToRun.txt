@@ -1,0 +1,23 @@
+
+Original Code in: https://github.com/githubharald/SimpleHTR
+
+
+The desired model should be in /SimpleHTR-Harald/model 
+some already trained models in /SimpleHTR-Harald/TrainedModels
+
+
+
+
+Running on Image:
+in /SimpleHTR-Harald/src/
+
+> python3 main.py --img_file {image_file_path}
+
+Training Model:
+{path_to_data_dir} contains the gt and the img dirs.
+
+Training on lines
+> python3 main.py --mode train --line_mode --data_dir {path_to_data_dir}
+
+Training on words
+> python3 main.py --mode train --data_dir {path_to_data_dir}
