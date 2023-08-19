@@ -2,6 +2,8 @@
 
 ## Files Description
 
+- `./Deslant` :\
+Directory containg the de-slant algoritm taken from [pytorch-handwritingCTC](https://github.com/jc639/pytorch-handwritingCTC) repository
 
 - `./Creation/` :\
 Directory containing the main script and the .csv file with the rows of some clinical analysis and their abreviation.
@@ -11,6 +13,22 @@ Dir containing everything related to the fonts used to create the dataset. If yo
 ```
 $ fc-list
 ```
+## Deslanting Algoritm
+
+### Preparation
+- Installing Packages
+> opencv - v4.6.0\
+pandas - v2.0.3\
+Pillow - v9.4.0\
+pytorch - v2.0.1\
+scikit-image - v0.20.0\
+torchvision - v0.15.2
+
+### Running Deslant Algoritm
+
+Just follow along de-slanting.ipynb after the completion of these 2 steps:\
+1 - place your input image at .root_dir/ \
+2 - change "uploaded" variable with the name of your image.
 
 ## Dataset Creation
 
