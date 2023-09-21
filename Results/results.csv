@@ -1,4 +1,4 @@
-test-id, original-text, data-type, csv, model--result, model-x-prob
+test-id, original-text, data-type, csv, model-SharpCrop-result, model-SharpCrop-prob,
 1, Ataque, font-A-word,True, "Ataque", 95.9687888622284%,
 2, Ansiedad, font-A-word, True, "Ansiedad", 99.56470727920532%,
 3, generalizada, font-A-word, True, "generalizada", 98.86177778244019%,
